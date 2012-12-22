@@ -2,6 +2,8 @@
 Use it like <st:adjunct include="org.kohsuke.stapler.backbone"/>
 -->
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
-  <st:adjunct includes="org.kohsuke.stapler.underscore"/>
-  <script src="${it.packageUrl}/backbone/backbone{it.manager.debug?'-min':''}.js" type="text/javascript" />
+  <st:adjunct includes="
+      org.kohsuke.stapler.underscore,
+      org.kohsuke.stapler.jquery"/>
+  <script src="${it.packageUrl}/backbone/backbone${it.manager.debug?'-min':''}.js" type="text/javascript" />
 </j:jelly>
