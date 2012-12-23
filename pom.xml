@@ -30,17 +30,6 @@
     </dependency>
   </dependencies>
 
-  <build>
-    <resources>
-      <resource>
-        <directory>src/main/bootstrap</directory>
-      </resource>
-      <resource>
-        <directory>src/main/resources</directory>
-      </resource>
-    </resources>
-  </build>
-
   <scm>
     <connection>scm:git:git://github.com/stapler/${project.artifactId}.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/stapler/${project.artifactId}.git</developerConnection>

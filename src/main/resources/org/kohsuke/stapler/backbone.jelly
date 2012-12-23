@@ -6,4 +6,5 @@ Use it like <st:adjunct include="org.kohsuke.stapler.backbone"/>
       org.kohsuke.stapler.underscore,
       org.kohsuke.stapler.jquery"/>
   <script src="${it.packageUrl}/backbone/backbone${it.manager.debug?'-min':''}.js" type="text/javascript" />
+  <script src="${it.packageUrl}/backbone/backbone-stapler.js" type="text/javascript" />
 </j:jelly>
