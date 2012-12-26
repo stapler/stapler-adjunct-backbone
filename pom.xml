@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.kohsuke.stapler</groupId>
   <artifactId>stapler-adjunct-backbone</artifactId>
-  <version>0.9.9-1-SNAPSHOT</version>
+  <version>0.9.9-1</version>
   <name>Backbone.js</name>
 
   <dependencies>
